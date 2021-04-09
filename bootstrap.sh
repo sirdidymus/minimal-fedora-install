@@ -69,6 +69,7 @@ dnf -y install \
     NetworkManager-tui \
     NetworkManager-wifi \
     network-manager-applet \
+    blueman \ 
     net-tools \
     wireless-tools \
     bind-utils \

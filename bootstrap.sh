@@ -39,9 +39,9 @@ dnf -y install \
 dnf -y install \
     adwaita-gtk2-theme \
     adwaita-icon-theme \
-    i3 \
-    i3lock \
-    dmenu \
+    fluxbox \
+    xlockmore \
+    rofi \
     xautolock \
     x11-ssh-askpass \
     openssh-askpass \
@@ -52,7 +52,7 @@ dnf -y install \
     xfce4-screenshooter \
     firefox \
     feh \
-    thunar
+    nautilus
 
 # System tools
 dnf -y install \
@@ -136,11 +136,6 @@ dnf -y install \
 dnf -y install \
     gstreamer1-plugin-openh264 \
     parole
-
-# ZRAM for Swap
-dnf -y install \
-    zram-generator \
-    zram-generator-defaults
 
 # Set graphical target and enable lightdm at boot
 systemctl enable lightdm.service

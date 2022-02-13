@@ -40,7 +40,7 @@ dnf -y install \
     adwaita-gtk2-theme \
     adwaita-icon-theme \
     fluxbox \
-    xlockmore \
+    slock \
     rofi \
     xautolock \
     x11-ssh-askpass \
@@ -52,6 +52,7 @@ dnf -y install \
     xfce4-screenshooter \
     firefox \
     feh \
+    sxiv \
     nautilus
 
 # System tools
